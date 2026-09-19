@@ -1,0 +1,57 @@
+# =========================
+# Python
+# =========================
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+# =========================
+# Jupyter
+# =========================
+.ipynb_checkpoints/
+
+# =========================
+# Environment / Secrets
+# =========================
+.env
+.env.*
+*.key
+*.pem
+credentials.json
+
+# =========================
+# Model files
+# =========================
+models/
+*.bin
+*.safetensors
+*.pt
+*.pth
+*.gguf
+
+# =========================
+# Hackathon / Banking Data
+# =========================
+transactions.csv
+accounts.csv
+customers.csv
+*.csv
+
+# =========================
+# Generated output
+# =========================
+# Uncomment if output contains sensitive/private data
+# fraud_predictions.json
+
+# =========================
+# Logs
+# =========================
+*.log
+logs/
+
+# =========================
+# OS files
+# =========================
+.DS_Store
+Thumbs.db
